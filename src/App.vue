@@ -96,7 +96,7 @@ export default {
   .wrapper h1 {
     text-align: center;
     margin: 10px auto auto 20px;
-    font-size: 15em;
+    font-size: 75px;
     color: rgba(240, 248, 255, 0.829);
     font-family: 'Staatliches', cursive;
   }
@@ -129,7 +129,7 @@ export default {
    -webkit-box-shadow: 5px 5px 52px 0 #000000;
    -moz-box-shadow: 5px 5px 52px 0 #000000;
    box-shadow: 5px 5px 52px 0 #000000;
-   text-shadow: 1px 1px 20px #000000;
+   text-shadow: 1px 1px 1px #c01b1b;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -144,9 +144,9 @@ export default {
    text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .wrapper h1 {
-    font-size: 75px;
+    font-size: 15em;
   }
 }
 
