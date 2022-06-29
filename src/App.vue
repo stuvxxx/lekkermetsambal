@@ -146,7 +146,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
   .wrapper h1 {
-    font-size: 100px;
+    font-size: 50px;
   }
 }
 
