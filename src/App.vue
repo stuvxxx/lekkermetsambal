@@ -144,4 +144,11 @@ export default {
    text-decoration: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .wrapper h1 {
+    font-size: 100px;
+  }
+}
+
+
 </style>
