@@ -8,9 +8,3 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
-@media only screen and (min-width: 600px) {
-    .wrapper h1 {
-      font-size: 15em;
-    }
-  }
