@@ -144,11 +144,6 @@ export default {
    text-decoration: none;
 }
 
-@media only screen and (min-width: 600px) {
-  .wrapper h1 {
-    font-size: 15em;
-  }
-}
 
 
 </style>
