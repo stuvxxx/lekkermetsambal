@@ -88,7 +88,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
   .wrapper {
-    padding-top: 200PX;
+    padding-top: 140px;
     width: 100%;
     height: 100%;
   }
@@ -96,6 +96,7 @@ export default {
   .wrapper h1 {
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 40px;
     font-size: 48px;
     color: rgba(240, 248, 255, 0.829);
     font-family: 'Staatliches', cursive;
@@ -123,7 +124,7 @@ export default {
    border-radius: 20px;
    color: #000000;
    font-family: 'Staatliches', cursive;
-   font-size: 20px;
+   font-size: 30px;
    padding: 20px;
   background-color: rgba(240, 248, 255, 0.829);
    -webkit-box-shadow: 5px 5px 52px 0 #000000;

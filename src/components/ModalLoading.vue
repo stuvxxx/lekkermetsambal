@@ -32,7 +32,7 @@ export default {
       height: 200px;
       padding: 20px;
       margin: 200px auto;
-      background: rgba(255, 255, 255, 0.849);
+      background: rgba(255, 255, 255, 0.904);
       border-radius: 10px;
       display: flex;
       align-content: center;
