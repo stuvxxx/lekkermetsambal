@@ -15,5 +15,6 @@ h1 {
 @media screen and (max-width: 800px) {
 body {
     background-image: url(chili_mobile.jpg);
+    background-size: cover;
     }
 }

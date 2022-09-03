@@ -96,7 +96,7 @@ export default {
   .wrapper h1 {
     text-align: center;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 48px;
     color: rgba(240, 248, 255, 0.829);
     font-family: 'Staatliches', cursive;
   }
