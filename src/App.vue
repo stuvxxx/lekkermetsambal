@@ -38,8 +38,6 @@ export default {
         this.myInput = "ALLES"
       }
       this.showModalLoading = !this.showModalLoading
-
-
       this.loading = "Chefs raadplegen"
       await delay(500)
       this.loading = "Chefs raadplegen."
@@ -77,6 +75,7 @@ export default {
       this.showModalLoading = !this.showModalLoading
       this.result = !this.result
       this.myInput = ""
+      this.checking = true
     }
 
 //    handleToggleResult() {
@@ -89,13 +88,14 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
   .wrapper {
+    padding-top: 200PX;
     width: 100%;
     height: 100%;
   }
 
   .wrapper h1 {
     text-align: center;
-    margin: 10px auto auto 20px;
+    margin: 0 auto;
     font-size: 50px;
     color: rgba(240, 248, 255, 0.829);
     font-family: 'Staatliches', cursive;

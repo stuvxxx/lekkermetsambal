@@ -25,101 +25,92 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .modal-loading {
-        align-self: center;
-        width: 300px;
-        height: 200px;
-        padding: 20px;
-        margin: 200px auto;
-        background: rgba(255, 255, 255, 0.849);
-        border-radius: 10px;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
+      align-self: center;
+      width: 300px;
+      height: 200px;
+      padding: 20px;
+      margin: 200px auto;
+      background: rgba(255, 255, 255, 0.849);
+      border-radius: 10px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column;
+    }   
     .modal-loading h1 {
-        color: rgba(0, 0, 0, 0.795);
-        font-size: 20px;
-        font-family: 'Staatliches', cursive;
-        text-align: center;
-    }
-
+      color: rgba(0, 0, 0, 0.795);
+      font-size: 20px;
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+    }   
     .modal-loading h5 {
-    color: black;
-    font-size: 20px;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.795);
-    }
-
+      color: black;
+      font-size: 20px;
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.795);
+    }   
     .modal-loading p {
-    color: black;
-    font-size: 12px;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    }
-
+      color: black;
+      font-size: 12px;
+      font-family: 'Staatliches', cursive;
+      text-align: center;
+    }   
     .backdrop {
-        top: 0;
-        position: fixed;
-        background: rgba(0, 0, 0, 0.466);
-        width: 100%;
-        height: 100%;
-    }
-
+      top: 0;
+      position: fixed;
+      background: rgba(0, 0, 0, 0.466);
+      width: 100%;
+      height: 100%;
+    }   
     .gerecht {
-        color: brown;
+      color: brown;
     }
     .result {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-    }
-
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }   
     .loading-text {
-    font-size: 8px;
-    }
-
+      font-size: 8px;
+    }   
     .result h1 {
-        color: rgba(0, 0, 0, 0.822);
-        font-size: 75px;
-        margin-top: 7px;
-        margin-bottom: 0;
-    }
-
+      color: rgba(0, 0, 0, 0.822);
+      font-size: 75px;
+      margin-top: 7px;
+      margin-bottom: 0;
+    }   
     .result p {
-    font-size: 20px;
+      font-size: 20px;
+    }   
+    .result button {
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      position: relative;
+      border: none;
+      border-radius: 20px;
+      width: fit-content;
+      color: #000000;
+      font-family: 'Staatliches', cursive;
+      font-size: 12px;
+      background-color: rgba(240, 248, 255, 0.829);
+      text-shadow: 1px 1px 20px #000000;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
     }
 
-    .result button {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   position: relative;
-   border: none;
-   border-radius: 20px;
-   width: fit-content;
-   color: #000000;
-   font-family: 'Staatliches', cursive;
-   font-size: 12px;
-   background-color: rgba(240, 248, 255, 0.829);
-   text-shadow: 1px 1px 20px #000000;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-
-.result button:hover {
-   background: #ff0000d2;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
-}
+    .result button:hover {
+      background: #ff0000d2;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      text-decoration: none;
+    }
 
 
 

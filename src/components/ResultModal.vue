@@ -4,7 +4,7 @@
 </div>
 </template>
 
-<style>
+<style scoped>
     .modal-result {
         width: 300px;
         height: 200px;
